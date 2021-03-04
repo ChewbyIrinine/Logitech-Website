@@ -3,11 +3,11 @@ body {
 }
 
 .header {
-    background-image: url(https://s3-alpha-sig.figma.com/img/096c/b440/1fd46cc5709cc5f20e9d06db5cd9e293?Expires=1615766400&Signature=PlvA5vKPYkjO8IuSdgorVhDJuTxuhy8jlUjqcAN3GmzeGjOnGKADg8RbPaXj3HZFU81ndPLll9mUJT5TOiWXEvdnNfY4fC3eHR6ZQMVnGEl5s7Ro2FHaDhXlEzCTCd07cwV4Utsu6kCVhRkZ-tG6tRl-TIAVQdnSlRKP13CXlPprkx01mM5on78GUEkyIPqz1dItpxsziAokau~dKEULUtv-llsBngPU~phnLJPjZRTvQ9I0bd8g5GjT4gQ4d5vhxgTwQIRAXHovHvqp24SL5SadAPzGGDjjFbz9byQJkvQgEm8Kw2J8MyoKlDqj2OVzZZC2vRKP5hiQ0CgKpSns3Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-image: url("img/mobile/Logo_Logitech_dark\ 1.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    height: 40px;
+    height: 39px;
 }
 
 .heading {
@@ -27,27 +27,32 @@ body {
 }
 
 .top__text-margin {
-    width: 75%;
-    margin: auto;
+    margin-left: 59px;
+    margin-right: 59px;
 }
 
 .top {
     background-color: lightgrey;
-    padding: 25px 0 50px 0;
+    padding: 25px 0 48px 0;
 }
 
 .top__img {
     margin-top: 94px;
     height: 256px;
-    background-image: url(https://s3-alpha-sig.figma.com/img/6590/e620/2863ebe4b3689d4b17eeba089baff560?Expires=1615766400&Signature=ALfk-GRkHBtSjn2bvbIjHZz2xwntM-Hbk6eXwpBL~eANI9~IktkxItwoajD0rli4lB4kCQV6q3nKbIlSqGhivJ5~0odrGyBY7ST-XcHw4mKg~UFKLd9dUogWDEuz38lLdMAZitlQqhrnHLwnlYCaURMNzN~sZJ~rG3e-gan~FNhc6VOxIKwQsMpiTR6PawvOKGOdJsobRxL73yLQMTgrKAiD0vKjiHAZGwu82PYo2P9kvlM0EnEz8O6RhRe62Ur93h~JVYtTrp73ahQUZbyGvODQ~-zL4H8ksgl6i0~W27VdBU66FAaQlV4RVSuyLcSFULUzWgVqPrC3lJ3XJ~HaBA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-image: url(img/mobile/MX-Master\ 1.png);
     background-size: contain;
     background-repeat: no-repeat;
-    margin-bottom: 41px;
+    margin-bottom: 67px;
     background-position: center;
 }
 
 .top__arrow {
     margin-top: 40px;
+    background-image: url(img/mobile/arrow.png);
+    height: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .center-content {
