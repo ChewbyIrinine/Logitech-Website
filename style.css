@@ -149,6 +149,33 @@ body {
     margin-bottom: 5px;
 }
 
+.info__slider {
+    height: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.info__slider_1 {
+    background-image: url(img/mobile/wood.png);
+}
+
+.info__slider_2 {
+    background-image: url(img/mobile/glass.png);
+}
+
+.info__slider_3 {
+    background-image: url(img/mobile/linoleum.png);
+}
+
+.info__slider_4 {
+    background-image: url(img/mobile/cloth.png);
+}
+
+.info__slider_5 {
+    background-image: url(img/mobile/marble.png);
+}
+
 .flow {
     padding-top: 70px;
     padding-bottom: 218px;
@@ -312,6 +339,30 @@ body {
         line-height: 28px;
     }
 
+    .info__slider {
+        height: 573px;
+    }
+
+    .info__slider_1 {
+        background-image: url(img/tablet/slider_1/wood.png);
+    }
+
+    .info__slider_1 {
+        background-image: url(img/tablet/slider_1/glass.png);
+    }
+
+    .info__slider_1 {
+        background-image: url(img/tablet/slider_1/linoleum.png);
+    }
+
+    .info__slider_1 {
+        background-image: url(img/tablet/slider_1/cloth.png);
+    }
+
+    .info__slider_1 {
+        background-image: url(img/tablet/slider_1/marble.png);
+    }
+
     .flow {
         padding-bottom: 498px;
         background-image: url(img/tablet/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
@@ -344,8 +395,8 @@ body {
     .text__flow:first-child {
         border-left: none;
         padding-left: 0px;
-    }  
-    
+    }
+
     .text__flow:last-child {
         padding-right: 0px;
     }
