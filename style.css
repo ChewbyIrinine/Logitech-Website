@@ -115,6 +115,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 17px;
+    padding-right: 17px;
 }
 
 .info__content {
@@ -154,6 +156,7 @@ body {
     background-image: url(img/mobile/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
     background-position: center bottom;
     background-repeat: no-repeat;
+    background-size: contain;
 
 }
 
@@ -288,5 +291,130 @@ body {
         height: 597px;
         margin-left: 39px;
         margin-right: 19px;
+    }
+
+    .info__content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 30px;
+    }
+
+    .info__item-heading {
+        margin-bottom: 5px;
+    }
+
+    .info__item {
+        min-height: 170px;
+    }
+
+    .info__heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .flow {
+        padding-bottom: 498px;
+        background-image: url(img/tablet/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+
+    .text_flow-p {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .flow__ol {
+        display: flex;
+        list-style-position: inside;
+        padding-left: 0px;
+    }
+
+    .text__flow {
+        width: auto;
+        padding-left: 28px;
+        padding-right: 21px;
+        border-left: 1px solid #2F3132;
+        font-size: 20px;
+        line-height: 23px;
+        padding-top: 8px;
+        padding-bottom: 4px;
+    }
+
+    .text__flow:first-child {
+        border-left: none;
+        padding-left: 0px;
+    }  
+    
+    .text__flow:last-child {
+        padding-right: 0px;
+    }
+
+    .settings__slider {
+        margin: 54px 198px 150px;
+    }
+
+    .heading_settings {
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+
+    .text_settings-p {
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+
+    .settings {
+        padding-bottom: 70px;
+    }
+
+    .settings__content {
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+
+    .settings__icons {
+        margin-right: 104px;
+        margin-left: 98px;
+    }
+
+    .settings__img {
+        height: 35px;
+    }
+
+    .text-settings {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .text_mouse {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .mouse__text {
+        padding-left: 67px;
+        padding-right: 64px;
+        padding-bottom: 50px;
+    }
+
+    .mouse__img {
+        height: 549px;
+        background-position: bottom;
+    }
+
+    .mouse__img_1 {
+        background-image: url(img/tablet/image\ 1.png);
+    }
+
+    .mouse__img_2 {
+        background-image: url(img/tablet/image\ 2.png);
+    }
+
+    .footer {
+        font-size: 14px;
+        line-height: 16px;
+        height: 150px;
+        padding-top: 47px;
     }
 }
