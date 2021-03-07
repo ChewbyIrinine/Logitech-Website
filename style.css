@@ -229,3 +229,14 @@ body {
     color: #c8c8c8;
     padding-top: 22px;
 }
+
+@media (min-width: 768px) {
+    .top {
+        padding-top: 54px;
+        padding-bottom: 80px;
+    }
+
+    .header {
+        background-image: url(img/tablet/Logo_Logitech_dark\ 1.png);
+    }
+}
