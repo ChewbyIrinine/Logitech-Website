@@ -154,7 +154,7 @@ body {
     background-image: url(img/mobile/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
     background-position: center bottom;
     background-repeat: no-repeat;
-   
+
 }
 
 .flow__ol {
@@ -196,4 +196,36 @@ body {
     color: white;
     margin-left: 5px;
     margin-right: 11px;
+}
+
+.mouse__text {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.mouse__img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 310px;
+}
+
+.mouse__img_1 {
+    background-image: url(img/mobile/High_Resolution_JPG-MX\ Master\ Lifestyle\ 2602\ SpaceGrey\ for\ MAC\ 2.png);
+}
+
+.mouse__img_2 {
+    background-image: url(img/mobile/image\ 2.png);
+}
+
+.footer {
+    background-color: #2F3132;
+    height: 75px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 8px;
+    text-align: center;
+    color: #c8c8c8;
+    padding-top: 22px;
 }
