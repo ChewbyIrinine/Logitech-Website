@@ -223,7 +223,7 @@ body {
 }
 
 .settings__slider_margin {
-    margin: 35px 22px 98px 22px;
+    margin: 35px 22px 95px 22px;
 }
 
 .settings__slider {
@@ -312,6 +312,19 @@ body {
     text-align: center;
     color: #c8c8c8;
     padding-top: 22px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background: none;
+    background-image: url(img/mobile/transparent-black-circle-hi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 15px;
+}
+
+.carousel-indicators {
+    top: 400px;
 }
 
 @media (min-width: 768px) {
