@@ -257,6 +257,10 @@ body {
     background-image: url(img/mobile/f8bf6eb.png);
 }
 
+.settings__slider-img {
+    display: none;
+}
+
 .settings__content {
     background-color: #c4c4c4;
     padding: 23px 22px 26px 29px;
@@ -735,5 +739,44 @@ body {
     .text_info {
         width: 765px;
         margin: auto;
+    }
+
+    .flow {
+        background-image: url(img/desktop/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+        padding-bottom: 870px;
+    }
+
+    .flow_center {
+        padding-left: calc(50% - 479px);
+        padding-right: calc(50% - 479px);
+    }
+
+    .flow__ol {
+        margin-left: 15px;
+    }
+
+    .srttings {
+        padding-bottom: 100px;
+    }
+
+    #settings-slider {
+        display: none;
+    }
+
+    .text_settings-p {
+        width: 958px;
+        margin: auto;
+    }
+
+    .settings__slider-img {
+        display: flex;
+        justify-content: center;
+        margin-top: 71px;
+    }
+
+    .settings__content {
+        width: 749px;
+        margin: auto;
+        margin-top: -56px;
     }
 }
