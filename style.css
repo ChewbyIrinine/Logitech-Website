@@ -321,6 +321,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     height: 15px;
+    margin: 0px;
 }
 
 .carousel-indicators {
@@ -473,7 +474,7 @@ body {
     }
 
     .settings__slider_margin {
-        margin: 54px 198px 150px;
+        margin: 54px 198px 148px;
     }
 
     .settings__slider {
@@ -566,6 +567,16 @@ body {
         line-height: 16px;
         height: 150px;
         padding-top: 47px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        height: 25px;
+        margin-left: 7.5px;
+        margin-right: 7.5px;
+    }
+
+    .carousel-indicators {
+        top: 600px;
     }
 }
 
