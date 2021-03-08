@@ -314,7 +314,7 @@ body {
     padding-top: 22px;
 }
 
-.carousel-indicators [data-bs-target] {
+.settings__slider_margin .carousel-indicators [data-bs-target] {
     background: none;
     background-image: url(img/mobile/transparent-black-circle-hi.png);
     background-position: center;
@@ -324,9 +324,73 @@ body {
     margin: 0px;
 }
 
-.carousel-indicators {
+.settings__slider_margin .carousel-indicators {
     top: 400px;
 }
+
+.carousel-control-next-icon {
+    background-image: url(img/mobile/arrow-right.png);
+    background-size: contain;
+    margin-top: 310px;
+    width: 9px;
+    margin-right: 34px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(img/mobile/arrow-left.png);
+    background-size: contain;
+    margin-top: 310px;
+    width: 9px;
+    margin-left: 34px;
+}
+
+#carouselExampleIndicators .carousel-indicators [data-bs-target] {
+    height: 30px;
+}
+
+#carouselExampleIndicators .carousel-indicators {
+    top : 250px;
+}
+
+.info__slider_1-i {
+    background-image: url(img/mobile/wood-texture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.info__slider_2-i {
+    background-image: url(img/mobile/wood-texture\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.info__slider_3-i {
+    background-image: url(img/mobile/linoleum-texture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.info__slider_4-i {
+    background-image: url(img/mobile/cloth-texture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.info__slider_5-i {
+    background-image: url(img/mobile/marble-texture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.info__heading {
+    margin-top: -112px;
+    margin-bottom: 112px;
+}   
 
 @media (min-width: 768px) {
     .top {
@@ -569,14 +633,39 @@ body {
         padding-top: 47px;
     }
 
-    .carousel-indicators [data-bs-target] {
+    .settings__slider_margin .carousel-indicators [data-bs-target] {
         height: 25px;
         margin-left: 7.5px;
         margin-right: 7.5px;
     }
 
-    .carousel-indicators {
+    .settings__slider_margin .carousel-indicators {
         top: 600px;
+    }
+
+    #carouselExampleIndicators .carousel-indicators [data-bs-target] {
+        height: 30px;
+    }
+    
+    #carouselExampleIndicators .carousel-indicators {
+        top : 600px;
+    }
+
+    .carousel-control-next-icon {
+        margin-top: 680px;
+        width: 9px;
+        margin-right: 100px;
+    }
+    
+    .carousel-control-prev-icon {
+        margin-top: 680px;
+        width: 9px;
+        margin-left: 100    px;
+    }
+
+    .info__heading {
+        margin-top: -110px;
+        margin-bottom: 110px;
     }
 }
 
@@ -858,5 +947,10 @@ body {
     .mouse__img_2 {
         background-image: url(img/desktop/image\ 2.png);
         order: 3;
+    }
+
+    .info__heading {
+        margin-top: -120px;
+        margin-bottom: 120px;
     }
 }
