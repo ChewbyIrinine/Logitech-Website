@@ -401,19 +401,19 @@ body {
         background-image: url(img/tablet/slider_1/wood.png);
     }
 
-    .info__slider_1 {
+    .info__slider_2 {
         background-image: url(img/tablet/slider_1/glass.png);
     }
 
-    .info__slider_1 {
+    .info__slider_3 {
         background-image: url(img/tablet/slider_1/linoleum.png);
     }
 
-    .info__slider_1 {
+    .info__slider_4 {
         background-image: url(img/tablet/slider_1/cloth.png);
     }
 
-    .info__slider_1 {
+    .info__slider_5 {
         background-image: url(img/tablet/slider_1/marble.png);
     }
 
@@ -685,5 +685,55 @@ body {
 
     .bluetooth__heading_day-mini {
         padding-top: 45px;
+    }
+
+    .info {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .info__text {
+        width: 765px;
+        margin: auto;
+    }
+
+    .info__item {
+        min-height: 140px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .info__item-heading {
+        margin-bottom: 5px;
+    }
+
+    .info__slider {
+        padding-left: calc(50% - 640px);
+        padding-right: calc(50% - 640px);
+    }
+
+    .info__slider_1 {
+        background-image: url(img/desktop/slider_1/wood.png);
+    }
+
+    .info__slider_2 {
+        background-image: url(img/desktop/slider_1/glass.png);
+    }
+
+    .info__slider_3 {
+        background-image: url(img/desktop/slider_1/linoleum.png);
+    }
+
+    .info__slider_4 {
+        background-image: url(img/desktop/slider_1/cloth.png);
+    }
+
+    .info__slider_5 {
+        background-image: url(img/desktop/slider_1/marble.png);
+    }
+
+    .text_info {
+        width: 765px;
+        margin: auto;
     }
 }
